@@ -1,21 +1,21 @@
 import { defineChain } from '../../../utils/chain/defineChain.js'
 
 export const skaleNebulaTestnet = /*#__PURE__*/ defineChain({
-  id: 503_129_905,
+  id: 37_084_624,
   name: 'SKALE | Nebula Gaming Hub Testnet',
   nativeCurrency: { name: 'sFUEL', symbol: 'sFUEL', decimals: 18 },
   rpcUrls: {
     default: {
-      http: ['https://staging-v3.skalenodes.com/v1/staging-faint-slimy-achird'],
+      http: ['https://testnet.skalenodes.com/v1/lanky-ill-funny-testnet'],
       webSocket: [
-        'wss://staging-v3.skalenodes.com/v1/ws/staging-faint-slimy-achird',
+        'wss://testnet.skalenodes.com/v1/ws/lanky-ill-funny-testnet',
       ],
     },
   },
   blockExplorers: {
     default: {
       name: 'SKALE Explorer',
-      url: 'https://staging-faint-slimy-achird.explorer.staging-v3.skalenodes.com',
+      url: 'https://lanky-ill-funny-testnet.explorer.testnet.skalenodes.com',
     },
   },
   contracts: {

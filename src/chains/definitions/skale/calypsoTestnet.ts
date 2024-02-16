@@ -1,23 +1,23 @@
 import { defineChain } from '../../../utils/chain/defineChain.js'
 
 export const skaleCalypsoTestnet = /*#__PURE__*/ defineChain({
-  id: 344_106_930,
+  id: 974_399_131,
   name: 'SKALE | Calypso NFT Hub Testnet',
   nativeCurrency: { name: 'sFUEL', symbol: 'sFUEL', decimals: 18 },
   rpcUrls: {
     default: {
       http: [
-        'https://staging-v3.skalenodes.com/v1/staging-utter-unripe-menkar',
+        'https://testnet.skalenodes.com/v1/giant-half-dual-testnet',
       ],
       webSocket: [
-        'wss://staging-v3.skalenodes.com/v1/ws/staging-utter-unripe-menkar',
+        'wss://testnet.skalenodes.com/v1/ws/giant-half-dual-testnet',
       ],
     },
   },
   blockExplorers: {
     default: {
       name: 'SKALE Explorer',
-      url: 'https://staging-utter-unripe-menkar.explorer.staging-v3.skalenodes.com',
+      url: 'https://giant-half-dual-testnet.explorer.testnet.skalenodes.com/',
     },
   },
   contracts: {
